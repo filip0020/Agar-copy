@@ -1,10 +1,10 @@
 {
-  "name": "agar",
+  "name": "circles",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "cd client && npm install && npm run build",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.19.2",
