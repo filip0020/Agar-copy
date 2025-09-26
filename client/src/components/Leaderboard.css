@@ -1,0 +1,29 @@
+.leaderboard-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  width: 200px;
+}
+
+.leaderboard-container h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.leaderboard-container ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leaderboard-container li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
