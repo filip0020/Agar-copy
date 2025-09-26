@@ -1,14 +1,21 @@
 {
-  "name": "circles",
+  "name": "agar-server",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "build": "cd client && npm install && npm run build",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5",
     "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
