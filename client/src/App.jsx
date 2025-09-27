@@ -7,7 +7,7 @@ import Leaderboard from './components/Leaderboard';
 import SplitButton from './components/SplitButton';
 import './index.css';
 
-const socket = io("https://circles-y78y.onrender.com/"); // ok aici, dar ascultările le atașăm o singură dată
+const socket = io("https://circles-y78y.onrender.com", { transports: ["websocket"] });
 
 function App() {
   const [isConnected, setIsConnected] = useState(false);
